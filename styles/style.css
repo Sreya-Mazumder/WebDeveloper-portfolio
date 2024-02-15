@@ -12,6 +12,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 nav ul{
@@ -47,4 +49,43 @@ nav a{
     color: white;
     padding: 15px 35px;
     
+}
+
+/* header related styles */
+
+.header{
+    background-color: rgb(255, 248, 243);
+}
+
+.banner{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    ;
+}
+.banner-greetings{
+    Font weight:600;
+    Font size:40px;
+    color:rgb(71, 71, 71);
+    padding: 0px;
+
+}
+.banner-title{
+    color: rgb(24, 24, 24);
+    font-size: 80px;
+    font-weight: 700;
+    padding: 0px;
+}
+
+.banner-text{
+    color: rgb(117, 117, 117);
+    font-size: 12px;
+    font-weight: 400;
+    padding: 0px;
+    
+}
+
+.profile-pic{
+    width: 500px;
 }
